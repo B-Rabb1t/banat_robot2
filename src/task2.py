@@ -203,8 +203,8 @@ class image_converter:
     
 
 
-    cv2.imshow("Image window", frame)
-    key=cv2.waitKey(3)
+    #cv2.imshow("Image window", frame)
+    #key=cv2.waitKey(3)
     #if key:def get_rotation (self,msg):
     #glob
       #exit(0)
