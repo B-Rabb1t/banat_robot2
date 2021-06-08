@@ -48,7 +48,7 @@ class FSX:
     mask =cv2.erode(mask,kernel2)
     mask =cv2.dilate(mask,kernel2)
     mask = cv2.dilate(mask, kernel)
-    cv2.imshow("mask",mask)
+    #cv2.imshow("mask",mask)
     #mask2=mask.copy()
     
     #kernel = np.ones((3,3),np.uint8)
