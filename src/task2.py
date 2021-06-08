@@ -16,8 +16,8 @@ from FSX_s import FSX
 #from simple_pid import PID
 #from parse import citireTXT
 roll = pitch = yaw = 0.0
-directie=[1,1,0,1,0]
-nr= [3,2,1,0,1]
+directie=[1,0,1,1,1,1,1,1,1,0]
+nr= [1,2,3,4,5,2,4,5,4,0]
 def miscareTask2(directie,nr):  
   if directie==1:
     self.command.linear.x=0.1*nr
